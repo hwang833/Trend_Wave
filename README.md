@@ -26,7 +26,6 @@ praw: pip install praw
 
 
 Data Source 1: Web Scraping at Twitter Trend  (Time to extract data: 10-15 Seconds)
-
 Note: For twitter scraping, when the website automatically jumps out, it means the application is getting real-time data from the website, just waiting for the window to close automatically (approximately 10-15 seconds). Don’t interrupt during scrapping.
 
 Chromedriver for Twitter scraping:
@@ -55,27 +54,15 @@ Make sure that:
 
 For Mac:
 You may be blocked by the Mac system when running and using the chrome driver for the first time. This is the pop up window you may see:
- 
-
-To relove this, go to System Preferences > Security & Privacy > General, look for a message about chromedriver being blocked, and click "Open Anyway" to allow it
-
- 
-
+To reslove this, go to System Preferences > Security & Privacy > General, look for a message about chromedriver being blocked, and click "Open Anyway" to allow it
 
 
 Data Source 2: Instagram API access from Rapid API (Time to extract data: 30 Seconds)
-
 API Access request is already within the python file. No additional installation required.
 
 
 Data Source 3: Reddit API (Time to extract 1000 data points: ~10 minutes)
-
 API Access request is already within the python file. praw installation required.
-
-
-
-Trello Board: https://trello.com/b/z9t7pmua/trendwave
-
 
 Demo Video: https://youtu.be/GQiltUAjpw4
 
